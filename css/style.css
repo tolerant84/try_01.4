@@ -194,11 +194,11 @@ body {
 }
 /* анимация для полосок уровня навыков*/
 @keyframes level {
-  0% {background: #f5f5f5;}
-  100% {background: #7bc2d3;}
+  0% {width: 0%;}
+  100% {width: 100%;}
 }
 .level-bar-inner {
-  animation: level 2s ease-in forwards;
+  animation: level 1s ease-in forwards;
 }
 .level-html{
  width: 27%; 
