@@ -244,6 +244,18 @@ body {
 .footer .fa-heart {
   color: #fb866a;
 }
+/*стили для навыков для максимального разрешения экрана*/
+@media screen and (min-width: 992px) {
+  .skillset .level-title {
+  float: left;
+  width: 30%;
+  margin-bottom: 0;
+  }
+  .skillset .level-bar {
+  width: 70%;
+  float: left;
+  }
+}
 /*стили для небольших разрешений экрана (меньше 768)*/
 @media screen and (max-width: 767px) {
 
@@ -263,17 +275,4 @@ body {
   .sidebar-top {
     width: 100%;
   }
-}
-/*стили для навыков для максимального разрешения экрана*/
-@media screen and (min-width: 992px) {
-  .skillset .level-title {
-  float: left;
-  width: 30%;
-  margin-bottom: 0;
-  }
-  .skillset .level-bar {
-  width: 70%;
-  float: left;
-  }
-}
 }
