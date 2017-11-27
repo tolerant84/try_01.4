@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   background-color: #42A8C0;
 }
-.sidebar-top {
+.sidebar-name {
   display: flex;
   width: 240px;
   padding: 30px;
@@ -40,7 +40,7 @@ body {
   list-style: none;
   padding: 0;
 }
-.sidebar-top .name {
+.sidebar-name .name {
   margin-bottom: 10px;
   margin-top: 15px;
   text-align: center;
@@ -48,7 +48,7 @@ body {
   font-weight: 900;
   color: #fff;
 }
-.sidebar-top .tagline {
+.sidebar-name .tagline {
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
@@ -69,10 +69,7 @@ body {
 .contacts a:hover {
   text-decoration: underline;
 }
-.contacts,
-.education,
-.languages,
-.interests {
+.sidebar-info__block {
   padding: 30px;
 }
 .education h2 {
@@ -272,7 +269,7 @@ body {
     width: 100%;
     order: 0;
   }
-  .sidebar-top {
+  .sidebar-name {
     width: 100%;
   }
 }
