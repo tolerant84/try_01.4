@@ -1,3 +1,4 @@
+@import url('footer/footer.css');
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -227,19 +228,6 @@ body {
   font-size: 16px;
   position: relative;
   top: -2px;
-}
-.footer {
-  padding: 60px 30px 30px 30px;
-  width: 100%;
-  height: 150px;
-}
-.footer .copyright {
-  line-height: 1.6;
-  color: #545E6C;
-  font-size: 13px;
-}
-.footer .fa-heart {
-  color: #fb866a;
 }
 /*стили для навыков для максимального разрешения экрана*/
 @media screen and (min-width: 992px) {
