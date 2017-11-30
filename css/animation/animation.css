@@ -1,0 +1,23 @@
+/* анимация для полосок уровня навыков*/
+@keyframes level {
+  0% {width: 0%;}
+  100% {width: 100%;}
+}
+.level-bar-inner {
+  animation: level 1s ease-in forwards;
+}
+.level-html{
+ width: 27%; 
+}
+.level-css{
+ width: 25%; 
+}
+.level-test{
+ width: 33%; 
+}
+.level-js{
+ width: 12%; 
+}
+.level-php{
+ width: 10%; 
+}

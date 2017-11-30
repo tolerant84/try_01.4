@@ -1,3 +1,4 @@
+@import url('animation/animation.css');
 @import url('footer/footer.css');
 body {
   font-family: 'Roboto', sans-serif;
@@ -31,9 +32,7 @@ body {
   flex-direction: column;
 
 }
-.image-face, 
-.name, 
-.tagline {
+.sidebar-name__elem {
   display: inline-flex;
   margin: auto;
 }
@@ -187,29 +186,6 @@ body {
 .skillset .level-bar-inner {
   height: 12px;
   background: #7bc2d3;
-}
-/* анимация для полосок уровня навыков*/
-@keyframes level {
-  0% {width: 0%;}
-  100% {width: 100%;}
-}
-.level-bar-inner {
-  animation: level 1s ease-in forwards;
-}
-.level-html{
- width: 27%; 
-}
-.level-css{
- width: 25%; 
-}
-.level-test{
- width: 33%; 
-}
-.level-js{
- width: 12%; 
-}
-.level-php{
- width: 10%; 
 }
 /* стили для иконок */
 .contacts .fa {
